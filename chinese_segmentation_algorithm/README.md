@@ -11,4 +11,8 @@
     
     hidden state chain. Chinese segmentation algorithm is based on calculation of hidden state chain.
     
+    The sentence is composed with chinese characters. Some of these characters is word which have 2 and more than 2 
+    
+    characters.
+     
     
