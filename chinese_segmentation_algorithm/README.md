@@ -51,7 +51,7 @@
     
     Here is the score of my program.
     
-    <table>
+<table>
 <tr>
 <td>
 === SUMMARY:
