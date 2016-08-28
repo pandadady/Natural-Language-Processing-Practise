@@ -11,8 +11,50 @@
     
     hidden state chain. Chinese segmentation algorithm is based on calculation of hidden state chain.
     
-    The sentence is composed with chinese characters. Some of these characters is word which have 2 and more than 2 
+    The sentence is composed with chinese characters. Some of these characters are words which have 2 and more 
     
-    characters.
+    than 2 characters. Others are single words. Chinese segmentation algorithm is going to recognising words 
+    
+    correctly. In the HMM , there are 2 chains, visible chain and hidden state chain. The sentence is considered as
+    
+    visible chain. Here is introduced part-of-speech tagging. The word which has 2 characters is tagged B and E,
+    
+    the first is tagged B , the second is tagged E. The word which has more 2 characters is tagged B,M and E,
+    
+    the middle characters are tagged M. The word which has 1 character is tagged S. The tagging of sentence is 
+    
+    considered as hidden state chain. In the calculation of hidden state chain, visible chain is known, and 
+    
+    tagging of sentence is the main target. Here is introduced state matrix and emission matrix. State matrix have
+    
+    2 parts, one is probability of one state transfermation into other state, another is probability of state of 
+    
+    first characters . Emission matrix is probability of state of characters. 
+    
+    Viterbi algorithm is used to find the path of max probability.
+    
+##DAG
+
+    DAG is short for directed acyclic graph. It is used in chinese segmentation algorithm as supplement of HMM.
+    
+    There is 2 reasons. The first reason is that only rely on probability calculation is not able to have 
+    
+    precise word segmentation result. The second reason is that DAG and max matching are able to have precise 
+    
+    word segmentation result , Especially the words that had been trained before.
+    
+##Experiment
+
+    The dataset is here,http://sighan.cs.uchicago.edu/bakeoff2005/. It is a public dataset available for 
+    
+    research use It has complete training, testing, and gold-standard data sets, as well as the scoring script.
+    
+    Here is the score of my program.
+    
+    
+    
+    
+    
+    
      
     
