@@ -47,7 +47,7 @@
 
     The dataset is here,http://sighan.cs.uchicago.edu/bakeoff2005/. It is a public dataset available for 
     
-    research use It has complete training, testing, and gold-standard data sets, as well as the scoring script.
+    research use. It has complete training, testing, and gold-standard data sets, as well as the scoring script.
     
     Here is the score of my program.
     
