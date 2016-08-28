@@ -1,0 +1,1 @@
+#Chinese Segmentation Algorithm
