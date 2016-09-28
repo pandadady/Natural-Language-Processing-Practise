@@ -1,0 +1,2 @@
+#Chinese Similarity Algorithm
+
