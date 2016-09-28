@@ -48,7 +48,25 @@
     
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=M%20%3D%20U%20%5Ccdot%20%5CSigma%20%5Ccdot%20V%5E%7BT%7D" style="border:none;" />
 
-    M is 
+    M is TF-IDF matrix.
+    
+    U represents correlation between terms and hidden features
+    
+    VT represents correlation between hidden features and docs
+    
+    The sigma is hidden features.
+    
+##Query
+
+    The query word needs to use Term-doc Matrix to change word into colum vector.
+    
+    Then we calc the correlation between hidden features and query
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=V_%7Bq%7D%20%3D%20q%5E%7BT%7D%5Ccdot%20U%20%5Ccdot%20%20%5CSigma%5E%7B-1%7D%20" style="border:none;" />
+
+    Then calculate cosine similarity between Vq and Vt. The reslut is a vector of similarity between query and docs.
+    
+    
     
     
 
