@@ -22,11 +22,15 @@
     
     terms dict  which is like {term:No.} ,Then assumed that we set the document number from 1 to 10, and we get a 
     
-    matrix. The colum of matrix is number of term. The row of matrix is number of doc.
+    matrix. The colum of matrix is number of term. The row of matrix is number of doc. The element of matrix is 
+    
+    the number of term shown in the doc.
     
 ##TF-IDF Matrix
     
-    The term-doc matrix 
+    The term-doc matrix is counting matrix. In  
+    
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=TF-IDF_%7Bij%7D%20%3D%20%5Cfrac%7BN_%7Bij%7D%7D%7BN_%7B*j%7D%7D*log(%5Cfrac%7BD%7D%7BD_%7Bi%7D%7D)&chco=FFFFFF&chf=a,s,00000080" style="border:none;" />
     
     
 
