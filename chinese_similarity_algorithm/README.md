@@ -30,7 +30,7 @@
     
     The term-doc matrix is counting matrix. In  
     
-<img src="http://chart.googleapis.com/chart?cht=tx&chl=TF-IDF_%7Bij%7D%20%3D%20%5Cfrac%7BN_%7Bij%7D%7D%7BN_%7B*j%7D%7D*log(%5Cfrac%7BD%7D%7BD_%7Bi%7D%7D)&chco=FFFFFF&chf=a,s,00000080" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=TF-IDF_%7Bij%7D%20%3D%20%5Cfrac%7BN_%7Bij%7D%7D%7BN_%7B*j%7D%7D*log(%5Cfrac%7BD%7D%7BD_%7Bi%7D%7D)&chf=a,s,00000080" style="border:none;" />
     
     
 
