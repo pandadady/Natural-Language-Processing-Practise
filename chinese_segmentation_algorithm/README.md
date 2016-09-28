@@ -31,7 +31,33 @@
     
     first characters . Emission matrix is probability of state of characters. 
     
-    Viterbi algorithm is used to find the path of max probability.
+    So, let see some definations.
+    
+    Visible state chain:小老鼠上灯台
+    
+    Hidden state chain:BMESBE
+    
+    Transition probability:probability of B or M or E or S changed to B or M or E or S 
+    
+    Emission probability:probability of 小,and so on.
+    
+    State matrix:matrix of probability of B or M or E or S changed to B or M or E or S 
+    
+    Mixed matrix:matrix of probability of chinese characters
+    
+    Start matrix:matrix of probability of B or M or E or S 
+    
+##Viterbi
+
+    Viterbi algorithm is used to find the path of max probability. It assumed that the current state is 
+    
+    determined by the previous state.  Tip 1 is the first character should be B or S. Get probabilities of B or S,
+    
+    Get first character probability from mixed matrix. We can sum these probabilities. The state of max value
+    
+    is the first character. Then, we go to the next character. Use sum of transition probability and emission 
+    
+    probability, and the state of max value is what we want.
     
 ##DAG
 
