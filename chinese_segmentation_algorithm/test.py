@@ -2,7 +2,6 @@
 """
 This module is used to ....
 Authors: shiduo
-Date:2016年8月11日
 ./score ../gold/msr_training_words.utf8 ../gold/msr_test_gold.utf8 msr_test_result.utf8 > score.utf8
 """
 import lib.viterbi as viterbi
