@@ -2,7 +2,6 @@
 """
 This module is used to ....
 Authors: shiduo
-Date:2016年8月11日
  
 """
 import re
