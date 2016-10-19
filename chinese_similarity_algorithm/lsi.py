@@ -1,13 +1,8 @@
 #!/usr/bin/python
 # -*- coding:  utf-8 -*
-################################################################################
-#
-# Copyright (c) 2016 Baidu.com, Inc. All Rights Reserved
-#
-################################################################################
 """
 This module is used to ....
-Authors: shiduo(shiduo@baidu.com)
+Authors: shiduo
 Date:2016-5-26
 """
 import jieba
